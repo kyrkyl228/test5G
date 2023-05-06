@@ -1,0 +1,58 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap'); */
+@font-face {
+    font-family: "Abel";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../abelrusbydaymarius.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Abel;
+}
+
+a {
+    color: inherit;
+    font-style: normal;
+    text-decoration: none;
+}
+
+td, tr {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    border-spacing: 0;
+}
+
+body{
+    /* position: relative; */
+    /* display: flex; */
+    background-color: #e3e3e3;
+}
+
+.wrapper{
+    zoom: 0.57;
+    position: relative;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 8px rgb(190, 190, 190);
+}
+
+/*@media screen and (max-width: 1130px) and (min-width: 800px){
+    .wrapper{
+        zoom: 0.4!important;
+    }
+}*/
+
+.head__sel{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 80px;
+    width: 110px;
+    height: 30px;
+}
+/* button{
+    border: 0;
+} */

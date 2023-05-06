@@ -1,0 +1,510 @@
+.wrapper{
+    max-width: 1920px;
+    padding: 0 68px;
+    position: static!important;
+    min-height: inherit;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    zoom: 0.57;
+}
+
+.rectangle-top{
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.head__sel{
+    position: absolute;
+    top: 150px;
+    margin-left: 1700px;
+}
+
+.dif-wrapper{
+    height: 700px;
+    margin-left: -68px;
+    width: 1920px;
+    display: flex;
+    background-image: url(https://summittravel.com.au/wp-content/uploads/2018/10/8813004554270.jpg);
+    background-size: cover;
+}
+
+.dif{
+    display: block;
+    width: 800px;
+    background-color: #ffffffd3;
+    margin: auto;
+    font-size: 144px;
+    color: #0079bd;
+    font-weight: 600;
+    text-align: center;
+}
+
+.map1{
+    margin-top: 50px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.map__laAm{
+    margin-left: 50px;
+    width: 964px;
+    height: auto;
+    display: block;
+}
+
+.map__laAmStat{
+    width: 719px;
+    height: 770px;
+    display: block;
+    margin: auto 0;
+}
+
+.map__switch-wrap{
+    padding: 5px;
+    font-size: 24px;
+    position: absolute;
+    overflow: hidden;
+    bottom: 0px;
+    left: 0;
+    border: 1px solid black;
+    background-color: white;
+    width: 160px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    color: black;
+}
+
+.map__li{
+    display: flex;
+    margin: 10px 0;
+}
+
+.map__li *{
+    margin: auto 0;
+}
+
+.map__sq{
+    margin-right: 10px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 30px;
+}
+
+.map__switch{
+    border-collapse: collapse;
+
+}
+
+.map__switch_p{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.map__switch-row{
+    border-collapse: collapse;
+    border-top: 2px solid black;
+}
+
+.map__switch-but{
+    width: 26px;
+    height: 26px;
+    border-right: 2px solid black;
+}
+
+.map__switch-name{
+    width: 176px;
+    height: 26px;
+    font-weight: 600;
+}
+
+.dia__head{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 110px;
+    width: 40%;
+    height: 110px;
+    display: flex;
+    border: 2px solid black;
+}
+
+.dia__head > *{
+    font-size: 60px;
+    font-weight: 600;
+    margin: auto;
+}
+
+.model{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.path{
+    display: block;
+    margin: 40px auto;
+    width: 1000px;
+    height: auto;
+}
+
+.wrap__middle-circ{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrap__circles{
+    margin-left: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.wrap__circle{
+    cursor: pointer;
+    display: flex;
+    width: 270px;
+    height: 270px;
+    border-radius: 100%;
+    background-color: #0079bd;
+}
+
+.wrap__circle-text{
+    margin: auto;
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+}
+
+.wrap__top-circ{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-table-wrapper{
+    margin-top: 150px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.bottom-table{
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.bottom-table__head{
+    position: relative;
+    text-align: center;
+    height: 110px;
+}
+
+.bottom-table__head-text{
+    vertical-align: middle;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.bottom-table__dow-img{
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    right: 20px;
+
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.bottom-table__row-name{
+    background-color: #e5e5e5;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.bottom-table__row{
+    border-top: 2px solid black;
+    height: 127px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.bottom-table__column{
+    font-size: 36px;
+    display: flex;
+    border-left: 2px solid black;
+}
+
+.bottom-table__column  *{
+    margin: auto;
+}
+
+.bottom-table__column:first-child{
+    border-left: 0px solid black;
+}
+
+.circle{
+    display: flex;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 460px;
+    height: 230px;
+    background-color: #0079bd;
+    border-top-right-radius: 230px;
+    border-top-left-radius: 230px;
+}
+
+.circle__center{
+    display: flex;
+    margin: auto;
+}
+
+.circle__text{
+    font-weight: 600;
+    color: white;
+    font-size: 144px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.circle__wave-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.circle__wave{
+    width: 87px;
+    height: auto;
+    margin: auto;
+}
+
+.copy{
+    margin-top: -22px;
+    display: block;
+    color: #aaaaaa;
+    font-size: 16px;
+}
+
+.madness{
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.map__laAm svg *{
+    transition: fill 0.7s ease, opacity 0.4s ease;
+}
+
+.map__laAm svg {
+    margin: auto;
+}
+ 
+.part {
+	opacity: 0.2;
+}
+
+.map__laAm path, .map__laAm rect, .map__laAm text{
+    cursor: pointer;
+}
+
+.map__laAm path{
+    fill: #d2dcde;
+    stroke: #5a5a5a;
+	fill: #c0c0c0;
+    stroke-width: 1;
+}
+
+/* ------------------------------------------ */
+.navigation{
+    background-color: #0079bd;
+    color: white;
+    font-weight: 700;
+    margin: 0px -68px;
+    padding: 30px 68px;
+    width: 1920px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inder-head{
+    background-color: #0079bd;
+    margin: 0px -68px;
+    height: 50px;
+    width: 1920px;
+}
+
+.link{
+    font-size: 40px;
+}
+
+.all-chart{
+    position: absolute;
+}
+
+.chinaChart{
+    margin: 330px 600px;
+    width: 50px;
+    height: 50px;
+}
+
+.kazChart{
+    margin: 230px 300px;
+    width: 50px;
+    height: 50px;
+}
+
+.russiaChart{
+    margin: 130px 200px;
+    width: 50px;
+    height: 50px;
+}
+.mongoliaChart{
+    margin: 250px 550px;
+    width: 50px;
+    height: 50px;
+}
+.indiaChart{
+    margin: 250px 550px;
+    width: 50px;
+    height: 50px;
+}
+.indiaChart{
+    margin: 425px 450px;
+    width: 50px;
+    height: 50px;
+}
+.turkcyChart{
+    margin: 300px 125px;
+    width: 50px;
+    height: 50px;
+}
+.SAChart{
+    margin: 425px 200px;
+    width: 50px;
+    height: 50px;
+}
+.iranChart{
+    margin: 350px 250px;
+    width: 50px;
+    height: 50px;
+}
+.pakistanChart{
+    margin: 390px 370px;
+    width: 50px;
+    height: 50px;
+}
+.afghanistanChart{
+    margin: 350px 340px;
+    width: 50px;
+    height: 50px;
+}
+.omanChart{
+    margin: 475px 290px;
+    width: 50px;
+    height: 50px;
+}
+.japanChart{
+    margin: 325px 850px;
+    width: 50px;
+    height: 50px;
+}
+.yemenChart{
+    margin: 500px 225px;
+    width: 50px;
+    height: 50px;
+}
+.iraqChart{
+    margin: 360px 185px;
+    width: 50px;
+    height: 50px;
+}
+.myanmarChart{
+    margin: 450px 580px;
+    width: 50px;
+    height: 50px;
+}
+.syriaChart{
+    margin: 335px 150px;
+    width: 50px;
+    height: 50px;
+}
+.indonesiaChart{
+    margin: 650px 725px;
+    width: 50px;
+    height: 50px;
+}
+.malaysiaChart{
+    margin: 600px 725px;
+    width: 50px;
+    height: 50px;
+}
+.thailandChart{
+    margin: 500px 625px;
+    width: 50px;
+    height: 50px;
+}
+.cambodiaChart{
+    margin: 530px 655px;
+    width: 50px;
+    height: 50px;
+}
+.vietnamChart{
+    margin: 530px 685px;
+    width: 50px;
+    height: 50px;
+}
+.turkmenistanChart{
+    margin: 305px 280px;
+    width: 50px;
+    height: 50px;
+}
+.uzbekistanChart{
+    margin: 285px 310px;
+    width: 50px;
+    height: 50px;
+}
+.kyrgyzstanChart{
+    margin: 285px 380px;
+    width: 50px;
+    height: 50px;
+}
+.tajikistanChart{
+    margin: 300px 380px;
+    width: 50px;
+    height: 50px;
+}
+.nepalChart{
+    margin: 400px 490px;
+    width: 50px;
+    height: 50px;
+}
+.bangladeshChart{
+    margin: 430px 530px;
+    width: 50px;
+    height: 50px;
+}
+.PNChart{
+    margin: 690px 950px;
+    width: 50px;
+    height: 50px;
+}
+.philippinesChart{
+    margin: 500px 775px;
+    width: 50px;
+    height: 50px;
+}

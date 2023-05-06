@@ -1,0 +1,245 @@
+.wrapper{
+    max-width: 1920px;
+    padding: 0 68px;
+}
+
+.rectangle-top{
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.head__sel{
+    position: absolute;
+    top: 150px;
+    right: 35px;
+}
+
+.dif{
+    font-size: 144px;
+    color: #0079bd;
+    font-weight: 600;
+    text-align: center;
+}
+
+.structure{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tab-wr{
+    border-radius: 8px;
+    width: 700px;
+    border: 2px solid black;
+}
+
+.structure__tab{
+    margin-bottom: auto;
+}
+
+.tab{
+    width: 100%;
+    text-align: center;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.tab__td{
+    height: 360px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tab__head{
+    font-size: 60px;
+    font-weight: 600;
+    border-bottom: 2px solid black;
+    height: 110px;
+}
+
+.tab__cont{
+    font-size: 36px;
+}
+
+.structure__image{
+    width: 903px;
+    height: 740px;
+}
+
+.continents{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.continents__circle{
+    display: flex;
+    width: 273px;
+    height: 273px;
+    border-radius: 273px;
+    background-color: #0079bd;
+}
+
+.continents__text{
+    margin: auto;
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+}
+
+.continents__am{
+    margin-top: -230px;
+}
+
+.continents__af{
+    margin-top: -115px;
+}
+
+.diagram{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.diagram__image{
+    width: 1016px;
+    height: auto;
+}
+
+.diagram__logos{
+    width: 701px;
+    height: auto;
+}
+
+.cr{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cr__tab{
+    margin-top: auto;
+}
+
+.cr__image{
+    width: 1030px;
+    height: auto;
+}
+
+.dia__head{
+    margin-top: 110px;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    border: 2px solid black;
+}
+
+.dia__head > *{
+    font-size: 60px;
+    font-weight: 600;
+    margin: auto;
+}
+
+.bar{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar__dia{
+    width: 850px;
+    height: 800px;
+}
+
+.d{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+}
+/* ---------------------------------- */
+
+.circle{
+    display: flex;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 460px;
+    height: 230px;
+    background-color: #0079bd;
+    border-top-right-radius: 230px;
+    border-top-left-radius: 230px;
+}
+
+.circle__center{
+    display: flex;
+    margin: auto;
+}
+
+.circle__text{
+    font-weight: 600;
+    color: white;
+    font-size: 144px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.circle__wave-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.circle__wave{
+    width: 87px;
+    height: auto;
+    margin: auto;
+}
+
+.copy{
+    margin-top: -22px;
+    display: block;
+    color: #aaaaaa;
+    font-size: 16px;
+}
+
+.navigation{
+    background-color: #0079bd;
+    color: white;
+    font-weight: 700;
+    margin: 0px -68px;
+    padding: 30px 68px;
+    width: 1920px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inder-head{
+    background-color: #0079bd;
+    margin: 0px -68px;
+    height: 50px;
+    width: 1920px;
+}
+
+.link{
+    font-size: 40px;
+}
+
+.dif-wrapper{
+    height: 700px;
+    margin-left: -68px;
+    width: 1920px;
+    display: flex;
+    background-size: cover;
+}
+
+.dif{
+    display: block;
+    width: 800px;
+    background-color: #ffffffd3;
+    margin: auto;
+    font-size: 144px;
+    color: #0079bd;
+    font-weight: 600;
+    text-align: center;
+}

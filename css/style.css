@@ -1,0 +1,383 @@
+body{
+    min-height: 100vh;
+}
+
+.wrapper{
+    position: static!important;
+    min-height: inherit;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1920px;
+    zoom: 0.57;
+}
+
+@media screen and (max-width: 1100px){
+    .wrapper{
+        zoom: 1;
+    }
+}
+
+.rectangle-top{
+    width: 100%;
+    height: 40px;
+}
+
+.head{
+    padding: 0 85px;
+    width: 100%;
+    font-weight: 700;
+}
+
+.head > *{
+    display: inline-block;
+}
+
+.head__logo{
+    margin-top: 31px;
+    vertical-align: top;
+    width: 153px;
+    height: 108;
+}
+
+.head__text{
+    width: 525px;
+    font-family: Abel, serif;
+    margin-top: 56px;
+}
+
+.head__top-text{
+    font-size: 26px;
+    margin-bottom: 22px;
+}
+
+.head__bottom-text{
+    margin-left: 24px;
+    font-size: 16px;
+    color: #aaaaaa;
+}
+
+.head__circle{
+    z-index: 999;
+    margin-top: -5px;
+    background-color: #0079bd;
+    position: absolute;
+    width: 450px;
+    height: 225px;
+    border-bottom-left-radius: 450px;
+    border-bottom-right-radius: 450px;
+}
+
+.head__center-circle{
+    width: 100%;
+    height: 100%;
+}
+
+.head__center-circle-wrap{
+    display: flex;
+    justify-content: center;
+}
+
+.head__circle-text{
+    font-size: 144px;
+    font-family: Abel;
+    color: white;
+}
+
+.head__wave-wrap{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.head__wave{
+    margin: auto;
+    width: 87px;
+    height: auto;
+}
+
+.head__link{
+    vertical-align: top;
+    margin-top: 75px;
+    margin-left: 480px;
+    font-size: 36px;
+    color: #007abd;
+    font-family: Abel;
+}
+
+.head__link-2{
+    vertical-align: top;
+    margin-top: 75px;
+    margin-left: 100px;
+    font-size: 36px;
+    color: #007abd;
+    font-family: Abel;
+}
+
+.head__sel{
+    vertical-align: top;
+    margin-top: 86px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 80px;
+    width: 110px;
+    height: 30px;
+}
+
+.map-wrap{
+    display: flex;
+    height: 950px;
+}
+
+path{
+    stroke: #5a5a5a;
+    fill: #c0c0c0;
+}
+
+.map{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1860px;
+    margin-top: 40px;
+    display: flex;
+    height: 1200px;
+    overflow: hidden;
+	position: relative;
+	text-align: center;
+	color: #d1dbdd;
+}
+
+.map__size{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.map__minus{
+    margin-top: 10px;
+}
+
+.map__but{
+    font-weight: 900;
+    color: white;
+    background-color: #0079bd;
+    border: 0;
+    border-radius: 70px;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+}
+
+.map svg *{
+    transition: fill 0.7s ease, opacity 0.4s ease;
+}
+
+.svg-w-map{
+    margin: auto;
+    top: 0px;
+    left: 0px;
+    position: relative;
+    transition: scale 0.4s ease;
+    scale: 2;
+    stroke: #f0f0f027;
+    stroke-width: 2;
+}
+
+.part {
+	opacity: 0.2;
+}
+
+.map__switch-wrap{
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 200px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    color: black;
+}
+
+.map__switch{
+    border-collapse: collapse;
+
+}
+
+.map__switch_p{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.map__switch-row{
+    border-collapse: collapse;
+    border-top: 2px solid black;
+}
+
+.map__switch-but{
+    width: 26px;
+    height: 26px;
+    border-right: 2px solid black;
+}
+
+.map__switch-name{
+    width: 176px;
+    height: 26px;
+    font-weight: 600;
+}
+
+.about{
+    position: relative;
+    margin-top: -60px;
+    /* margin-left: 115px;
+    margin-right: 115px; */
+    width: 100%;
+    padding: 0 115px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__circle{
+    display: flex;
+    width: 270px;
+    height: 270px;
+    background-color: #0079bd;
+    border-radius: 270px;
+}
+
+.about__text{
+    margin: auto;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
+
+.info{
+    padding: 0 40px;
+}
+
+.info__visual-sec-head{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 60px;
+    color: #007abd;
+    font-weight: 600;
+}
+
+.info__graf{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__graf-image{
+    width: 780px;
+    height: 580px;
+    object-fit: cover;
+}
+
+.info__diagrams{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.info__diagram{
+    width: 1050px;
+    height: 130px;
+    display: flex;
+    background-color: #d9e9f1;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.info__diagrams-text{
+    font-weight: 600;
+    font-size: 36px;
+    margin: auto;
+}
+
+.info__diagram-image{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: auto;
+    height: 78px;
+    margin-right: 5px;
+}
+
+.info__diagram-2{
+    width: 776px;
+    height: 130px;
+    display: flex;
+    background-color: #9fc0d4;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.info__diagram-3{
+    width: 521px;
+    height: 130px;
+    display: flex;
+    background-color: #4a8eb0;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.regions{
+    margin-top: 60px;
+    padding: 0 40px;
+}
+
+.regions__maps{
+    display: flex;
+    justify-content: space-between;
+}
+
+.regions__head{
+    margin-bottom: -70px;
+    font-weight: 600;
+    font-size: 60px;
+    color: #007abd;
+    text-align: center;
+}
+
+.regions__map-image{
+    width: 575px;
+    height: 652px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.regions__map-text{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.regions__map-2{
+    margin-top: 200px;
+}
+
+.regions__map-3{
+    margin-top: 400px;
+}
+
+.copyrights{
+    margin-left: 10px;
+    color: #aaaaaa;
+    font-size: 16px;
+    font-weight: 400;
+}

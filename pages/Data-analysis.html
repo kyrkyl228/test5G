@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/all.css?v2.20t">
+    <link rel="stylesheet" href="../css/an.css?v2.20t">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src='https://cdn.plot.ly/plotly-2.18.2.min.js'></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="wrapper">
+        <select class="head__sel">
+            <option>EN</option>
+            <option>RU</option>
+            <option>CN</option>
+        </select>
+        <nav class="navigation">
+            <a href="../index.html" class="link">Main page</a>
+            <a href="./Diffusion.html" class="link">5G diffusion</a>
+            <a href="./Data-analysis.html" class="link">Data analysis</a>
+            <a href="./Africa.html" class="link">Africa</a>
+            <a href="./Asia.html" class="link">Asia</a>
+            <a href="./Latin-America.html" class="link">Latin America</a>
+            <a href="./Authors.html" class="link">Authors</a>
+        </nav>
+        <div class="dif-wrapper">
+            <p class="dif">Data analysis</p>
+        </div>
+        <div class="inder-head"></div>
+        <div class="structure">
+            <div class="tab-wr structure__tab">
+                <table class="tab">
+                    <tr class="tab__head">
+                        <td class="">About Project</td>
+                    </tr>
+                    <tr class="tab__cont">
+                        <td class="tab__td">Text</td>
+                    </tr>
+                </table>                
+            </div>
+            <img src="../images/str.jpg" alt="" class="structure__image">
+        </div>
+        <div class="continents">
+            <div class="continents__circle continents__am"><p class="continents__text">Latin America</p></div>
+            <div class="continents__circle continents__af"><p class="continents__text">Africa</p></div>
+            <div class="continents__circle continents__as"><p class="continents__text">Asia</p></div>
+        </div>
+        <div class="diagram">
+            <div src="../images/sc.png" alt="" class="">
+                <div id='myDiv'><!-- Plotly chart will be drawn inside this DIV --></div>
+            </div>
+            <div class="diagram__right">
+                <div class="tab-wr">
+                    <table class="tab">
+                        <tr class="tab__head">
+                            <td class="">About Project</td>
+                        </tr>
+                        <tr class="tab__cont">
+                            <td class="tab__td">Text</td>
+                        </tr>
+                    </table>                
+                </div>
+                <img src="../images/logos.PNG" alt="" class="diagram__logos">
+            </div>
+        </div>
+        <div class="cr">
+            <div class="tab-wr cr__tab">
+                <table class="tab">
+                    <tr class="tab__head">
+                        <td class="">About Project</td>
+                    </tr>
+                    <tr class="tab__cont">
+                        <td class="tab__td">Text</td>
+                    </tr>
+                </table>                
+            </div>
+            <img src="../images/cre.jpg" alt="" class="cr__image">
+        </div>
+        <div class="dia__head"><p>Ratio of infrastructure providers</p></div>
+        <!-- <div style="width: 897px; height: 897px;"><canvas id="bar-chart-grouped" style="width: 97px; height: 97px;"></canvas></div> -->
+        
+
+        <div class="bar">
+            <!-- <div><canvas id="bar-chart-grouped" height="900" width="1000"></canvas></div>
+            <div><canvas id="bar-chart-grouped-2" height="900" width="700"></canvas></div>             -->
+            <div id="chart_div"></div>
+            <div id="chart_div2"></div>
+
+        </div>
+        <a href="../index.html" class="circle">
+            <div class="circle__center">
+                <p class="circle__text">5G</p>
+                <div class="circle__wave-wrap"><img src="../images/wave.png" alt="" class="circle__wave"></div>                 
+            </div>
+        </a>
+        <p class="copy">© 2022 All rights reserved</p>
+    </div>
+    <script src="../js/size.js"></script>
+    <script src="../js/barData.js"></script>
+    <script src="../js-chart/analysis-chart.js"></script>
+</body>
+</html>
